@@ -1,0 +1,132 @@
+/* src/pages/Login.css */
+.login-page {
+    position: relative;
+    height: 100vh;
+    background-image: url('../../background_banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 60px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    max-width: 450px;
+    width: 100%;
+  }
+  
+  .login-container h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container input[type="email"],
+  .login-container input[type="password"],
+  .login-container input[type="text"] {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-container button {
+    padding: 15px;
+    background-color: rgb(164, 27, 27) ;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .login-container button:hover {
+    background-color: #99131a;
+    transform: scale(1.05);
+    
+  }
+  
+  .login-help {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #b3b3b3;
+  }
+  
+  .login-help span{
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+  
+  .login-help span:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-now {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .signup-now span {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .signup-now p {
+    color: rgb(145, 137, 137);
+    text-decoration: none;
+    
+  }
+  
+  .signup-now span:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .login-now {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+  
+  .login-now span {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .login-now p {
+    color: rgb(145, 137, 137);
+    text-decoration: none;
+    
+  }
+  
+  .login-now span:hover {
+    text-decoration: underline;
+  }
+  
+  .captcha-notice {
+    font-size: 12px;
+    color: #8c8c8c;
+    margin-top: 20px;
+  }
+  
+  .captcha-notice a {
+    color: #0071eb;
+    text-decoration: none;
+  }
+  
+  .captcha-notice a:hover {
+    text-decoration: underline;
+  }
+  
